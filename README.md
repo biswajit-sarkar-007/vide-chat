@@ -110,7 +110,9 @@ reportWebVitals.js - Measures app performance.
 setupTests.js - Configures Jest testing environment.
 
 # 🏗️ Architecture
+```
 
 [Client (React)] <--> [WebRTC (P2P Connection)] <--> [Client (React)]
      │                                │
      └───> [Socket.IO Server (Node.js)] <───┘
+```
