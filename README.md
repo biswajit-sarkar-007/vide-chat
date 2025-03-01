@@ -70,6 +70,7 @@ Testing: Jest, React Testing Library
 
 
 # project strcut
+```
 
 video-chat-app/
 │── server/                   # Backend (Node.js + Socket.IO)
@@ -93,7 +94,7 @@ video-chat-app/
 │   │   ├── setupTests.js        # Jest setup file
 │   ├── package.json          # Frontend dependencies
 │── README.md                 # Project Documentation
-
+```
 # 📜 Code Overview
 
 SocketProvider.js - Handles real-time WebSocket communication.
